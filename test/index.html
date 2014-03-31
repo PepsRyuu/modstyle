@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../node_modules/lamda/lamda.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    require.config({
+        paths: {
+            "presenter": "../node_modules/presenter/presenter",
+            "modstyle": "../modstyle"
+        }
+    })
+
+    require(['Test1', "Test2"], function(Test1, Test2) {
+        new Test1({}, document.body);
+        new Test2({}, document.body);
+        new Test2({}, document.body);
+    })
+</script>
+
+</body>
+</html>

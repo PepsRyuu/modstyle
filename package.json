@@ -1,0 +1,19 @@
+{
+  "name": "modstyle",
+  "version": "0.0.1",
+  "description": "AMD plugin for writing modular templates with modular CSS",
+  "main": "modstyle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PepsRyuu/modstyle.git"
+  },
+  "author": "Paul Sweeney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PepsRyuu/modstyle/issues"
+  },
+  "homepage": "https://github.com/PepsRyuu/modstyle"
+}
