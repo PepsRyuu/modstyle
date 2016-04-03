@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/PepsRyuu/modstyle/issues"
   },
-  "homepage": "https://github.com/PepsRyuu/modstyle"
+  "homepage": "https://github.com/PepsRyuu/modstyle",
+  "devDependencies": {
+    "lamda": "^0.3.3",
+    "presenter": "^0.2.0"
+  }
 }
